@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 400;
+  src: url('https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff');
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'San Francisco';
+  /* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
+}
+body {
+  background: #0e0c13;
+}
+.navigation {
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+}
+.navigation nav ul {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+}
+.navigation nav ul li {
+  padding: 10px;
+}
+.navigation nav ul li a {
+  text-decoration: none;
+  margin-right: 2rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header {
+  height: 52.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.content {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 50%;
+}
+.image {
+  width: 40%;
+  object-fit: cover;
+}
+h1 {
+  font-size: 3rem;
+  color: #fff;
+}
+.header .content span {
+  font-size: 4.75rem;
+  color: #ffcc00;
+}
+/* medium desktops */
+@media only screen and (max-width: 850px) {
+  .header {
+    height: 42rem;
+  }
+  .navigation nav ul li {
+    padding: 0;
+  }
+  .content {
+    width: 100%;
+  }
+  .image {
+    display: none;
+  }
+}
+
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .navigation img {
+    display: none;
+  }
+  .navigation {
+    display: inline-block;
+    padding: 20px;
+  }
+  .navigation nav ul li {
+    padding: 0;
+  }
+  .content {
+    width: 100%;
+  }
+}
