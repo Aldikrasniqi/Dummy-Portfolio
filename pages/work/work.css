@@ -61,8 +61,8 @@ body {
 }
 .col {
   margin: 0 10px;
-  width: 400px;
-  height: 300px;
+  width: 450px;
+  height: auto;
   padding: 10px;
   color: white;
 }
@@ -81,9 +81,16 @@ body {
   height: 200px;
   background-color: #ffcc00;
 }
+.col a {
+  color: #f4d95d;
+}
+.col a:hover {
+  color: #ffcc00;
+}
 .col h2,
 .col p,
-.col .img {
+.col .img,
+a {
   padding: 5px;
 }
 /* mobile */

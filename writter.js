@@ -1,3 +1,4 @@
+// type writter function logic
 let i = 0;
 
 function typeWriter() {
