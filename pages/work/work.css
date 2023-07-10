@@ -108,4 +108,7 @@ a {
   .content {
     width: 100%;
   }
+  .header h1 {
+    margin: 15px;
+  }
 }

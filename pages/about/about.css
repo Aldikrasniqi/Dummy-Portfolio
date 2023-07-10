@@ -47,6 +47,18 @@ body {
   color: #ffcc00;
   font-size: 3rem;
 }
+.info {
+  margin: 50px 0 0 140px;
+  color: #ffcc00;
+}
+.about {
+  margin-top: 20px;
+}
+.about span {
+  margin-left: 140px;
+  display: block;
+  color: #fff;
+}
 /* mobile */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
   .navigation img {
@@ -61,5 +73,14 @@ body {
   }
   .content {
     width: 100%;
+  }
+  .header h1 {
+    margin: 20px;
+  }
+  .info {
+    margin: 20px;
+  }
+  .about span {
+    margin-left: 20px;
   }
 }

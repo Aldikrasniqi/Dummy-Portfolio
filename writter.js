@@ -2,8 +2,8 @@
 let i = 0;
 
 function typeWriter() {
-  const txt = 'Hello Wrld,';
-  const speed = 100;
+  const txt = 'Hello World,';
+  const speed = 150;
 
   if (i < txt.length) {
     document.getElementById('demo').innerHTML += txt.charAt(i);
